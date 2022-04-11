@@ -3,7 +3,7 @@
  (wrapped false)
  (modules
   (:standard \ owl_aeos_gen))
- (libraries str unix bigarray)
+ (libraries str unix)
  (foreign_stubs
   (language c)
   (names owl_aeos_tuner_map_stub owl_aeos_tuner_fold_stub)
